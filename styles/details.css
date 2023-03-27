@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0f0f0f;
+}
+body {
+    padding: 0 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* nav */
+.header__nav{
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__figure img{
+    width: 150px;
+}
+
+.header__list{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.header__list img{
+    width: 45px;
+    height: 40px;    
+}
+
+/* main */
+.main{
+    color: #ccc;
+    display: flex;
+    gap: 25px;
+    flex-direction: row;
+}
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 8px;
+}
+.main__list{
+    list-style: none;
+}
+.main__list li{
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.card__video{
+    width: 845px;
+    height: 480px;
+}
+
+.videoS{
+    /* display: flex;
+    flex-direction: column;
+    gap: 20px; */
+    flex-basis: 30%;
+}
+
+.main_cards .cards img{
+    width: 258px;
+    height: 144px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.main_cards .cards .cards__image{
+    flex-basis: 49%;
+}
+
+.main_cards .cards .flex-div{
+    flex-basis: 49%;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+/* .cards .cards__image {
+    width: 258px;
+    height: 144px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.cards .flex-div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 7px;
+}
+.cards .flex-div img{
+    width: 35px;
+    flex-basis: 49%;
+    margin-right: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.cards .flex-div{
+    flex-basis: 49%;
+} */
+/* .cards__name{
+    color: #cfcfcf;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    cursor: pointer;
+}
+.cards__views{
+    color: #aaa;
+    margin-left: 45px;
+    margin-top: 6px;
+    font-size: 13px;
+} */
+
+/* buttons */
+.main__buttons{
+    margin-bottom: 25px;
+    display: flex;
+    gap: 20px;
+}
+
+.main__buttons button{
+    padding: 5px 10px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    color: #f1f1f1;
+    background-color: #343434;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.main__buttons button:hover{
+    background-color: #474646;
+    color: #fff;
+}
